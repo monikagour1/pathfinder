@@ -40,12 +40,9 @@ const Home = () => {
   };
 
   const handleGitHubClick = () => {
-    window.open("https://github.com/DexTerMtor-Rahul/Pathfinder", "_blank");
+    window.open("https://github.com/monikagour1/pathfinder", "_blank");
   };
 
-  const handleLinkedInClick = () => {
-    window.open("https://www.linkedin.com/in/dextermtor-rahulraj/", "_blank");
-  };
 
   return (
     <HelmetProvider>
@@ -68,21 +65,6 @@ const Home = () => {
                 },
               }}>
               <GitHubIcon
-                sx={{
-                  fontSize: 30,
-                  color: "#FF0000",
-                  marginRight: "1rem",
-                }}
-              />
-            </IconButton>
-            <IconButton
-              onClick={handleLinkedInClick}
-              sx={{
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}>
-              <LinkedInIcon
                 sx={{
                   fontSize: 30,
                   color: "#FF0000",
